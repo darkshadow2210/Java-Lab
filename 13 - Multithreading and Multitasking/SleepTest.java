@@ -1,6 +1,6 @@
 public class SleepTest extends Thread {
     public void run() {
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i < 5; i++) {
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
@@ -13,7 +13,6 @@ public class SleepTest extends Thread {
     public static void main(String args[]) {
         SleepTest t1 = new SleepTest();
         SleepTest2 t2 = new SleepTest2();
-
         t1.start();
         t2.start();
     }
