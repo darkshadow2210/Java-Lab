@@ -13,6 +13,6 @@ public class Calc
 		r= c1.mul(10.0,20.0);
 		System.out.println("product = "+r);
 		r= c1.div(10.0,20.0);
-		System.out.println("div = " +r);
+		System.out.println("division = " +r);
 	}
 }
