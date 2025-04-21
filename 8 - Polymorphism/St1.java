@@ -1,7 +1,4 @@
 class student1 {
-	int rollno;
-	String name, branch;
-
 	void display() {
 		System.out.println("SUPER CLASS DISPLAY");
 		System.out.println("HELLO");
