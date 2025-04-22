@@ -17,7 +17,7 @@ public class ExceptionDemo {
             System.out.println("\n CHECK INPUT \n");
             System.out.println(e);
         } catch (ArithmeticException e) {
-            System.out.println("\nI AM IN CATCH BLOCK 1");
+            System.out.println("\nI AM IN CATCH BLOCK 2");
             System.out.println("\nDIVISION BY ZERO IS NOT POSSIBLE\n");
             System.out.println(e);
         }
