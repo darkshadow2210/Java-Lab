@@ -3,7 +3,7 @@ import java.io.*;
 public class ReadFileExample {
     public static void main(String[] args) {
         // File path
-        String filePath = "temp.txt";
+        String filePath = "output.txt";
 
         // Read the content from the file
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
