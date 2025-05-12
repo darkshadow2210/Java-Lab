@@ -1,0 +1,8 @@
+U should have JDK-8 or below to execute the Applet
+Install from here - https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+Add bin folder to the path variables
+Restart ur PC
+
+Compile the program - 
+1) javac MyApplet.java
+2) appletviewer MyApplet.html
