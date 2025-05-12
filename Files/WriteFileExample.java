@@ -3,7 +3,7 @@ import java.io.*;
 public class WriteFileExample {
     public static void main(String[] args) {
         // File path
-        String filePath = "input.txt";
+        String filePath = "temp.txt";
         
         // Create FileWriter for writing to the file
         try (FileWriter fw = new FileWriter(filePath)) {
