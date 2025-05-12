@@ -4,15 +4,11 @@ import java.awt.event.*;
 public class MouseListenerExample extends Frame implements MouseListener {
 
     Label l;
-
     MouseListenerExample() {
-        // Set up the frame and label
         l = new Label();
         l.setBounds(20, 50, 200, 20);
-
-        addMouseListener(this); // Register MouseListener
+        addMouseListener(this);
         add(l);
-
         setSize(300, 300);
         setLayout(null);
         setVisible(true);
