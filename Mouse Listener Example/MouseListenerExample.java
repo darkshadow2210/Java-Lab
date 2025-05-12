@@ -7,7 +7,7 @@ public class MouseListenerExample extends Frame implements MouseListener {
     MouseListenerExample() {
         l = new Label();
         l.setBounds(20, 50, 200, 20);
-        addMouseListener(this); // Register MouseListener
+        addMouseListener(this);
         add(l);
 
         setSize(300, 300);
